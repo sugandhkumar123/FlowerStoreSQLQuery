@@ -62,4 +62,10 @@ insert into occasion values(11, 'Sympathy n Funeral');
 
 insert into Customer(name, email, phone, address, password) values('manthan', 'abc@gmail.com', '123456789', 'jaipur', 'abc123');
 
-insert into Customer(name, email, phone, address, vendor, password) values('adi', 'dic@gmail.com', '987654321', 'jaipur', 'Admin', 'xyz123');
+insert into Customer(name, email, phone, address, vendor, password) values('Admin', 'admin@gmail.com', '987654321', 'jaipur', 'Admin', 'xyz123');
+
+insert into Customer(name, email, phone, address, password) values('Sugandh', 'sug@gmail.com', '123456789', 'patna', 'abc13');
+
+insert into Customer(name, email, phone, address, password) values('Achal', 'ach@gmail.com', '123456789', 'pune', 'abc123');
+
+insert into Customer(name, email, phone, address, password) values('Amit', 'amit@gmail.com', '123456789', 'mumbai', 'abc123');
