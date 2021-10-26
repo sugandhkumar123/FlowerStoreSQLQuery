@@ -31,6 +31,8 @@ item_price float,
 
 Alter table Cart add status varchar(20)
 
+Alter table orderDetails add DateOfPlaced date
+
 ALTER TABLE Cart ADD CONSTRAINT cons_cart_status DEFAULT 'Pending' FOR status
 
 
