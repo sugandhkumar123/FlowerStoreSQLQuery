@@ -5,8 +5,8 @@ use dbFlowerStore;
 create table Customer(
 id int identity(101,1) primary key,
 name varchar(50) not null,
-email varchar(150),
-phone varchar(15),
+email varchar(150) unique,
+phone varchar(15) unique,
 address varchar(500),
 vendor varchar(20) default 'User',
 )
